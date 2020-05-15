@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài Tập 05</title>
+	<script type="text/javascript" src="js/bai5.js"></script>
+</head>
+<style>
+	.container {
+		max-width: 400px;
+		margin: 0 auto;
+		border: 1px solid #000;
+		padding: 20px;
+		padding-left: 30px;
+	}
+
+	#validate_input, #chuyenMuc {
+		display: none;
+	}
+</style>
+<body>
+	<div class="container">
+		<h1>FORM TÌM KIẾM</h1>
+		<form action="bai7.html" onsubmit="return validateForm();">
+			<label>Từ Khóa:</label> <br>
+			<input id="truongNhapLieu" type="text" name="search" onfocus="changeInput(this)" onblur="validateInput(this)"> 
+			<span id="validate_input">Bạn cần nhập từ khóa vào trường này </span><br>
+
+			<a id="timKiemNangCao" href="#" onclick="return displaySearch()">Tìm kiếm nâng cao</a> <br>
+			<div id="chuyenMuc">
+				<br>
+				<label>Chọn chuyên mục:</label><br>
+				<select name="chuyenMuc">
+					<option value="Công nghệ thông tin">Công nghệ thông tin</option>
+					<option value="Tài chính ngân hàng">Tài chính ngân hàng</option>
+					<option value="Sinh học">Sinh học</option>
+					<option value="Môi trường">Môi trường</option>
+				</select>
+			</div><br>
+			
+			<input type="submit" name="submit" value="Tìm kiếm">
+		</form>		
+	</div>
+</body>
+</html>

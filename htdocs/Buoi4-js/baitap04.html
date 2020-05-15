@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài tập 04</title>
+	<script type="text/javascript" src="js/baitap04.js"></script>
+</head>
+<style>
+	.container {
+		max-width: 550px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.button {
+		text-align: center;
+		margin-top: 10px;
+		padding-left: 48px;
+	}
+	.img{
+		text-align: center;
+	}
+	img {
+		width: 400px;
+		height: 300px;
+		padding-left: 60px;
+	}
+
+	button {
+		padding: 7px;
+	}
+</style>
+<body>
+	<div class="container">
+		<h1>Thay đổi thuộc tính SRC của thẻ img</h1>
+		<div class="img">
+			<img id="img" src="https://chauhoa.vn/pictures/chau-hoa-su-4.jpg">
+		</div>
+		
+		<div class="button">
+			<button onclick="changeSRC('https://i2.wp.com/yeuhoahong.com.vn/wp-content/uploads/2019/07/hong_co_03.jpg?fit=1024%2C683&ssl=1')">Hồng nhung</button>
+			<button onclick="changeSRC('https://hatgiongtihon.net/wp-content/uploads/2018/06/h%C6%B0%E1%BB%9Bng-d%C6%B0%C6%A1ng-v%C3%A0ng-cao-h%E1%BA%A1t-gi%E1%BB%91ng-t%C3%AD-hon-4.jpg')">Hướng dương</button>
+			<button onclick="changeSRC('https://vietjet.net/includes/uploads/2017/12/cach-trong-hoa-van-tho-tet-5-1-600x375.jpg')">Vạn thọ</button>
+			<button onclick="changeSRC('https://lh3.googleusercontent.com/proxy/3_BT3wDnfjzKboZ0ev6OBmUOjFqLGudQrID4B2-N3LxnnHyf3gi_mQkPHlQAf_zRqKhcxuUJegr-6V6t03T4v36YO-tZ_Rd_xhB8z8s9Q5rG4USjIA')">Cẩm tú cầu</button>
+			<button onclick="changeSRC('https://upload.wikimedia.org/wikipedia/commons/4/49/B%C3%B4ng_s%C3%BAng_m%C3%A0u_t%C3%ADm.jpg')">Bông súng</button>
+		</div>
+	</div>
+</body>
+</html>

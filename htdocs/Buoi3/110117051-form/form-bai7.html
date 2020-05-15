@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài tập 07</title>
+</head>
+<style>
+	.container {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+</style>
+<body>
+	<div class="container">
+		<form action="#" method="post">
+			<fieldset>
+				<h4>Đăng ký thành viên</h4>
+				<div>
+					<label for="username">Tên đăng nhập: </label><br>
+					<input type="text" name="username" id="username" /><br>
+					<label for="pwd">Mật Khẩu: </label><br>
+					<input type="password" name="pwd" id="pwd" /><br><br>
+				</div>
+
+				<div>
+					<label for="birthday">Chọn ngày sinh: </label>
+				  	<input type="date" id="birthday" name="birthday">
+
+				</div>
+
+				<br>
+
+				<div>
+					<label>Chọn giới tính: </label><br>
+					<label for="nam">Nam</label>
+					<input type="radio" name="nam" id="nam" tabindex="2" value="" />
+			
+					<label for="nu">Nữ</label>
+					<input type="radio" name="nu" id="nu" tabindex="3" value="" />
+				</div>
+				
+				<br>
+
+				<div>
+					<label for="select">Chọn Tỉnh/Thành phố</label><br>
+					<select name="tinhtp" id="tinhtp">
+						<option value="TV">Trà Vinh</option>
+						<option value="BT">Bến Tre</option>
+						<option value="ST">Sóc Trăng</option>
+					</select>
+				</div>
+
+				<div>
+					<p>Chọn lĩnh vực quan tâm:</p>
+						<input type="checkbox" id="lv1" name="lv1" value="">
+				  		<label for="lv1"> Giáo dục </label>
+				  		<input type="checkbox" id="lv2" name="lv2" value="">
+				  		<label for="lv2"> Kinh tế </label>
+				  		<input type="checkbox" id="lv3" name="lv3" value="">
+				  		<label for="lv3"> Sức khoẻ </label>
+				  		<input type="checkbox" id="lv4" name="lv4" value="">
+				  		<label for="lv4"> Nông nghiệp </label>
+				</div>
+
+				<br>
+
+				<div>
+					<input type="submit" value="Đăng nhập" />
+					<input type="reset" name="reset" value="Nhập lại">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	
+
+
+</body>
+</html>

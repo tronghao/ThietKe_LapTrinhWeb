@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài tập 05</title>
+</head>
+<style>
+	.container {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+</style>
+<body>
+	<div class="container">
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Thông tin</legend>
+
+				<div>
+					<h4>1) Nhập dữ liệu trên 1 dòng</h4>
+					<label for="fname">Họ Tên: </label>
+		  			<input type="text" id="fname" name="fname" value=""><br>
+				</div>
+			
+				<div>
+					<h4>2) Nhập dữ liệu trên nhiều dòng</h4>
+					<textarea cols="40" rows="8" name="textarea" id="textarea" placeholder="Nhập dữ liệu vào đây."></textarea>
+				</div>
+
+				<div>
+					<h4>3) Dữ liệu bảo mật</h4>
+					  <label for="pwd">Mật khẩu: </label>
+					  <input type="password" id="pwd" name="pwd"><br><br>
+				</div>
+
+
+				<div>
+					<h4>4) Chọn duy nhất trong nhóm các tuỳ chọn</h4>
+			
+					<label for="radio-choice-1">Nam</label>
+					<input type="radio" name="radio-choice" id="radio-choice-1" tabindex="2" value="choice-1" />
+			
+					<label for="radio-choice-2">Nữ</label>
+					<input type="radio" name="radio-choice" id="radio-choice-2" tabindex="3" value="choice-2" />
+				</div>
+			
+				<div>
+					<h4>5) Chọn nhiều tuỳ chọn trong nhóm  các tuỳ chọn</h4>
+
+						<input type="checkbox" id="mausac1" name="mausac1" value="Xanh">
+				  		<label for="mausac1"> Xanh </label><br>
+				  		<input type="checkbox" id="mausac2" name="mausac2" value="Đỏ">
+				  		<label for="mausac2"> Đỏ </label><br>
+				  		<input type="checkbox" id="mausac3" name="mausac3" value="Vàng">
+				  		<label for="mausac3"> Vàng </label><br><br>
+				</div>
+
+				<div>
+					<h4>6) Chọn 1 giá trị từ danh sách có sẵn</h4>
+
+					<label for="select">Màu sắc</label>
+					<select name="mausac" id="mausac">
+						<option value="xanh">Xanh</option>
+						<option value="do">Đỏ</option>
+						<option value="vang">Vàng</option>
+					</select>
+				</div>
+				
+				<div>
+					<h4>7) Chọn nhiều giá trị từ ds có sẵn</h4>
+					<select id="mausac" name="mausac" multiple="multiple">
+		 			 	<option value="xanh">Xanh</option>
+		  				<option value="do">Đỏ</option>
+		  				<option value="tom">Tím</option>
+		  				<option value="vang">Vàng</option>
+					</select>
+				</div>
+
+				<div>
+					<h4>8) Chọn tập tin từ máy tính</h4>
+
+					  	<label for="myfile">Chọn file</label>
+		  				<input type="file" id="myfile" name="myfile"><br><br>
+
+				</div>
+			
+				<div>
+					<input type="submit" value="Submit"/>
+					<input type="reset">
+				</div>
+
+			</fieldset>
+		</form>		
+	</div>
+</body>
+</html>
