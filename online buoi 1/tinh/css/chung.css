@@ -1,0 +1,15 @@
+* {
+	font-family: arial;
+	font-size: 14px;
+	box-sizing: border-box;
+	line-height: 2;
+}
+
+body {
+	margin: 30px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+}
