@@ -20,6 +20,20 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 offset-3">
+				<ul class="nav">
+				  <li class="nav-item">
+				    <a class="nav-link" href="frm_them_nganh_hoc.php">Ngành</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="lop.php">Lớp</a>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-3">
 				<form action="xu-ly-them-nganh-hoc.php" method="post">
 					<div class="form-group">
 						<div class="title">FORM NGÀNH HỌC</div>
@@ -35,8 +49,13 @@
 					<button type="submit" class="btn btn-primary" name="submit">Submit</button>
 					<button type="reset" class="btn btn-primary">Reset</button>
 				</form>
+				<div>
+				<br>
+				<a href="hien-thi-du-lieu.php">Hien du lieu</a></div>
 			</div>
 		</div>
+
+
 	</div>
 </body>
 </html>
